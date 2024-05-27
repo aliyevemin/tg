@@ -1,0 +1,15 @@
+codecov:
+  strict_yaml_branch: main
+coverage:
+  range: [80, 100]
+  parsers:
+    javascript:
+      enable_partials: true
+  status:
+    patch:
+      default:
+        informational: true
+    project:
+      default:
+        informational: true
+comment: false
